@@ -1,2 +1,3 @@
 # skills_bar
-fun way to show your skills
+
+Fun way to show your skills using only HTML and CSS
