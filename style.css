@@ -1,0 +1,48 @@
+* {
+  font-family: shrikhand;
+  color: #757575;
+}
+
+section {
+  width: 50%;
+  padding: 30px;
+  align-content: center;
+  align-self: center;
+}
+
+.bar {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #eeeeee;
+  text-align: right;
+  color: #757575;
+  animation-name: load;
+  animation-duration: 3s;
+}
+
+.html {
+  width: 85%;
+  background-color: #fccb27;
+}
+
+.css {
+  width: 80%;
+  background-color: #592f82;
+}
+
+.js {
+  width: 70%;
+  background-color: #ea6d5b;
+}
+
+.react {
+  width: 70%;
+  background-color: #003691;
+}
+
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
